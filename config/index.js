@@ -57,7 +57,7 @@ export const config = {
   /**
    * 接收公众号消息的微信号，如果有多个，需要在[]里用英文逗号间隔
    */
-  USERS: [oNuPH5oMK9m1NNterp0yMlnrGRZ4，oNuPH5iz57MkScVbZfmmjFnemgoM
+      USERS: [oNuPH5oMK9m1NNterp0yMlnrGRZ4,oNuPH5iz57MkScVbZfmmjFnemgoM
     {
       // 想要发送的人的名字
       name: "帅气聪明亲亲哥哥~",
@@ -70,9 +70,9 @@ export const config = {
       // 所在城市
       city: "长春",
       // 新历生日, 仅用作获取星座运势, 格式必须
-      horoscopeDate: '05-06',
+      horoscopeDate: "05-06",
       // 获取什么时候的星座运势，可选：['今日', '明日', '本周', '本月', '今年'], 留空则随机
-      horoscopeDateType: '今日',
+      horoscopeDateType: "今日",
       // 他点击详情后跳转的页面,你可以设置成微博的热榜，也可以设置成其他，网址一定要填对；不填对也没关系，随便你，会打不开而已。
       openUrl: "https://wangxinleo.cn",
       // 专属节日提醒，如果你在这里填写了节日提醒，就不会执行FESTIVALS的提醒了, 和FESTIVALS的配置方法相同，可以往下查看，我这里就不重复写了
@@ -95,8 +95,8 @@ export const config = {
       useTemplateId: "8ngmKEIFRWdnpthiROl73Sigh0o2XCJNo6VvUo2obBU",
       province: "吉林",
       city: "长春",
-      horoscopeDate: '07-20',
-      horoscopeDateType: '今日',
+      horoscopeDate: "07-20",
+      horoscopeDateType: "今日",
       openUrl: "https://wangxinleo.cn",
       festivals: [ 
         // 注意：此条配置日期为阴历日期，因为`type`中 “生日” 之前有 * 符号
