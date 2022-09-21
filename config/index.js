@@ -57,20 +57,20 @@ export const config = {
   /**
    * 接收公众号消息的微信号，如果有多个，需要在[]里用英文逗号间隔
    */
-  USERS: [
+  USERS: [oNuPH5oMK9m1NNterp0yMlnrGRZ4，oNuPH5iz57MkScVbZfmmjFnemgoM
     {
       // 想要发送的人的名字
-      name: "老婆0",
+      name: "思宇~",
       // 扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
-      id: "",
+      id: "oNuPH5iz57MkScVbZfmmjFnemgoM",
       // 你想对他发送的模板消息的模板ID
-      useTemplateId: "",
+      useTemplateId: "8ngmKEIFRWdnpthiROl73Sigh0o2XCJNo6VvUo2obBU",
       // 所在省份
       province: "吉林",
       // 所在城市
       city: "长春",
       // 新历生日, 仅用作获取星座运势, 格式必须
-      horoscopeDate: '12-27',
+      horoscopeDate: '05-06',
       // 获取什么时候的星座运势，可选：['今日', '明日', '本周', '本月', '今年'], 留空则随机
       horoscopeDateType: '今日',
       // 他点击详情后跳转的页面,你可以设置成微博的热榜，也可以设置成其他，网址一定要填对；不填对也没关系，随便你，会打不开而已。
@@ -92,41 +92,25 @@ export const config = {
     {
       name: "馨彤1",
       id: "wxff126dab748c24ca",
-      useTemplateId: "",
-      province: "",
-      city: "",
-      horoscopeDate: '',
-      horoscopeDateType: '',
+      useTemplateId: "8ngmKEIFRWdnpthiROl73Sigh0o2XCJNo6VvUo2obBU",
+      province: "吉林",
+      city: "长春",
+      horoscopeDate: '07-20',
+      horoscopeDateType: '今日',
       openUrl: "https://wangxinleo.cn",
-      festivals: [],
-      customizedDateList: []
+      festivals: [ 
+        // 注意：此条配置日期为阴历日期，因为`type`中 “生日” 之前有 * 符号
+        {"type": "*生日", "name": "帅气聪明亲亲哥哥~", "year": "2000", "date": "05-06"},
+        // 注意：此条配置日期为阳历日期，因为`type`中 “生日” 之前没有 * 符号
+        {"type": "生日", "name": "美丽可爱亲亲宝贝~", "year": "2001", "date": "07-20"},
+        {"type": "节日", "name": "在一起纪念日", "year": "2022", "date": "08-01"},
+      ],
+      customizedDateList: [
+        // 在一起的日子
+        {"keyword": "love_day", date: "2022-08-01"},
+      ]
     },
     {
-      name: "老婆2",
-      id: "",
-      useTemplateId: "",
-      province: "",
-      city: "",
-      horoscopeDate: '',
-      horoscopeDateType: '',
-      openUrl: "https://wangxinleo.cn",
-      festivals: [],
-      customizedDateList: []
-    },
-    {
-      name: "老婆3",
-      id: "",
-      useTemplateId: "",
-      province: "",
-      city: "",
-      horoscopeDate: '',
-      horoscopeDateType: '',
-      openUrl: "https://wangxinleo.cn",
-      festivals: [],
-      customizedDateList: []
-    },
-    // 你可以不断按格式往下增加
-    // ...
   ],
 
   /**
