@@ -18,7 +18,7 @@ export const config = {
   IS_SHOW_COLOR: true,
 
   // 功能开关,打开：true，关闭：false
-  SWITCH: {
+  SWITCH: { true
     /** 每日天气 */
     weather: true,
 
@@ -41,7 +41,7 @@ export const config = {
     poetry: false,
 
     /** 星座运势 */
-    horoscope: false,
+    horoscope: true,
 
     /** 生日消息和节日消息 */
     birthdayMessage: true,
@@ -60,7 +60,7 @@ export const config = {
   USERS: [oNuPH5oMK9m1NNterp0yMlnrGRZ4，oNuPH5iz57MkScVbZfmmjFnemgoM
     {
       // 想要发送的人的名字
-      name: "思宇~",
+      name: "帅气聪明亲亲哥哥~",
       // 扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
       id: "oNuPH5iz57MkScVbZfmmjFnemgoM",
       // 你想对他发送的模板消息的模板ID
@@ -90,7 +90,7 @@ export const config = {
       ]
     },
     {
-      name: "馨彤1",
+      name: "美丽可爱亲亲宝贝~",
       id: "wxff126dab748c24ca",
       useTemplateId: "8ngmKEIFRWdnpthiROl73Sigh0o2XCJNo6VvUo2obBU",
       province: "吉林",
@@ -186,9 +186,9 @@ export const config = {
     * keyword是指暴露给测试号的模板字段，填什么就暴露什么, 请注意不要和README的出参表中的字段重复。
     * 比如：keyword: "love_date" ，在测试号中就是 {{ love_date.DATA }}
     * */
-  CUSTOMIZED_DATE_LIST: [
+  CUSTOMIZED_DATE_LIST: ["在一起已经"
     // 在一起的日子
-    {"keyword": "love_day", date: "2022-08-01"},
+    {"keyword": "love_date", date: "2022-08-01"},
     // 你可以不断按格式往下增加
     // ...
   ],
@@ -199,9 +199,9 @@ export const config = {
     * keyword是指暴露给测试号的模板字段，填什么就暴露什么, 请注意不要和README的出参表中的字段重复。
     * 比如：keyword: "lover_prattle" ，在测试号中就是 {{ lover_prattle.DATA }}
     * */
-  SLOT_LIST: [
+  SLOT_LIST: ["encourage_oneself"
     // 这样配置的话，就会每次发送这句话
-    {"keyword": "encourage_oneself", contents: "你主要的问题在于读书太少而想得太多"},
+    {"keyword": "encourage_oneself", contents: "今天醒来更喜欢你了呢"},
     // 这样配置的话，就会每次随机选一句话发送
     {"keyword": "lover_prattle", contents: [
       "因为太喜欢你，所以看谁都像是情敌。",
